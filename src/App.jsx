@@ -23,6 +23,7 @@ export default function App() {
     })
   }, [politici, politico])
 
+
   return (
     <>
       <h1>I Politici</h1>

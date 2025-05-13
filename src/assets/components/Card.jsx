@@ -1,4 +1,7 @@
-export default function Card({ politico }) {
+import { memo } from 'react'
+
+const Card = memo(({ politico }) => {
+    console.log('Card')
     return (
         <div className="col-3">
             <div className="card mt-3">
@@ -14,3 +17,6 @@ export default function Card({ politico }) {
         </div>
     )
 }
+)
+
+export default Card
